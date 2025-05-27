@@ -1,6 +1,6 @@
 /* eslint-disable no-irregular-whitespace */
 import css from "./MovieGrid.module.css"
-import type { Movie } from "../types/movie";
+import type { Movie } from "../../types/movie";
 
 interface MovieGridProps{
     onSelect: (movie:Movie) => void;
