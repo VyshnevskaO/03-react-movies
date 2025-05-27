@@ -21,6 +21,7 @@ export default function App() {
 
   
   const handleSearch = async (query: string) => {
+    setIsError(false);
     setMovies([]);
     setIsLoading(true);
     try {
